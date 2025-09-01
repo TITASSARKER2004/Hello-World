@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 105px;
+    line-height: 105px;
+    padding: 0px 100px;
+    position: relative;
+    background-image: linear-gradient(#01151b,#00080a);
+}
+
+nav .logo p{
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    color: white;
+   cursor: pointer;   
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;    
+}
+nav li a:hover{
+    color: rgb(250, 155, 12);
+    transition: all 0.6s ease-in-out;
+}
+
+
+.image-grid a .tt{
+    width: 500px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+}
+button{
+        width: 120px;
+        height: 35px;
+        margin: 10px 5px;
+        background-color: rgb(14, 14, 14);
+        border: none;
+        border-radius: 7px;
+        color: #dee4e6;
+        margin-left: 50%;
+        
+    }
+    button:hover{
+        background-color: #06e9c7;
+        color: rgb(1, 16, 21);
+        transition: all 0.4s ease-in-out;
+    }
+
+
+
+    .image-button {
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    .www{
+        width: 100%;
+        height: 50%;
+        margin: 300px;
+        background-color: #01151b;
+    }
+
+    .image-button img {
+      width: 100px;
+      height: auto;
+    }
+
+    .aaaa{
+        position: absolute;
+        top: 1920px;
+        left: 620px;
+        align-items: center;
+        transform: translate(-30%,-30%);
+        font-size: small;
+        color: rgb(247, 247, 248);
+    }
